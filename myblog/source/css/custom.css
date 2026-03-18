@@ -17,7 +17,7 @@
   pointer-events: none;
 }
 
-#page-header.full_page #site-info {
+#page-header.full_page.has-home-travel-map #site-info {
   display: none;
 }
 
@@ -26,7 +26,7 @@
     display: none;
   }
 
-  #page-header.full_page #site-info {
+  #page-header.full_page.has-home-travel-map #site-info {
     display: none;
   }
 }

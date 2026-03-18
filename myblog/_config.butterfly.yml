@@ -71,6 +71,7 @@ inject:
     - <link rel="stylesheet" href="/css/custom.css">
     - <link rel="stylesheet" href="/css/google-translate.css">
   bottom:
+    - <script src="/js/home-travel-map.js"></script>
     - <script src="/js/google-translate.js"></script>
 
 # 簡單的 404 頁面
