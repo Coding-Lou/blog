@@ -1,0 +1,93 @@
+title: Jay's Blog
+
+nav:
+  # 導航欄 Logo 圖片
+  logo:
+  # 是否顯示標題
+  display_title: true
+  # 是否在滾動時顯示文章標題
+  display_post_title: true
+  # 是否固定導航欄
+  fixed: false
+
+avatar:
+  # 頭像圖片鏈接
+  img: https://avatars.githubusercontent.com/u/75350727
+  # 是否啟用頭像效果
+  effect: false
+
+menu:
+  Home: / || fas fa-home
+  Footprint: /categories/footprint/ || fas fa-map-marked-alt
+  Memos: /memos/ || fas fa-comment-dots
+  Archives: /archives/ || fas fa-archive
+
+aside:
+  enable: true
+  hide: false
+  button: true
+  card_author:
+    enable: true
+    description: "Coding / Hacking / Travelling"
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/Coding-Lou/
+  # 找到这里并修改
+  card_announcement:
+    enable: false  # 将 true 改为 false 即可关闭
+    content: "这是之前的公告内容"
+
+search:
+  use: local_search
+  placeholder: Search articles
+  local_search:
+    preload: false
+    top_n_per_article: 1
+
+social:
+  fab fa-linkedin: https://www.linkedin.com/in/jiayu-lou-58a485129/ || LinkedIn
+  fas fa-envelope: mailto:ureylou@gmail.com || Email
+
+pwa:
+  enable: true
+  manifest: /manifest.json
+  theme_color: '#49b1f5'
+  apple_touch_icon:
+  favicon_32_32:
+  favicon_16_16:
+  mask_icon:
+
+index_img: /images/background.jpg
+
+# 分类页顶部图：category_per_img 为每个分类单独设置，category_img 为所有分类的默认图
+category_img: /images/background.jpg
+category_per_img:
+  worldmap: /images/footprint.jpeg   # Footprint 页（worldmap 分类）的顶部图，可改为如 /images/footprint.jpg
+
+inject:
+  head:
+    - <link rel="stylesheet" href="/css/custom.css">
+    - <link rel="stylesheet" href="/css/google-translate.css">
+  bottom:
+    - <script src="/js/google-translate.js"></script>
+
+# 簡單的 404 頁面
+error_404:
+  # 是否啟用 404 頁面
+  enable: false
+  # 404 頁面的副標題
+  subtitle: 'Page Not Found'
+  # 404 頁面的卡片背景圖片
+  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+
+footer:
+  owner:
+    enable: true
+    name: Jay Jiayu Lou
+    since: 1994 - present
+  copyright:
+    enable: true
+    text: "Copyright © 2026 Jay Jiayu Lou"
+    link: https://github.com/Coding-Lou/

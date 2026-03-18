@@ -1,0 +1,10 @@
+{
+  "name": "Jay Blog",
+  "short_name": "Blog",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#49b1f5",
+  "lang": "zh-CN"
+}
